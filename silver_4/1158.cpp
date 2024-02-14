@@ -56,8 +56,8 @@ int main(void)
 //   for(int cur = 1; len != 0; cur = nxt[cur]){
 //     K 번째일 때 제거
 //     if(i == K){
-//       pre[nxt[cur]] = pre[cur];
-//       nxt[pre[cur]] = nxt[cur];
+//       pre[nxt[cur]] = pre[cur]; - 다음 위치의 pre를 삭제할 위치의 pre로 변경
+//       nxt[pre[cur]] = nxt[cur]; - 이전 위치의 nxt를 삭제할 위치의 nxt로 변경
 //       v.push_back(cur);
 //       i = 1;
 //       --len;
