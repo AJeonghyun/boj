@@ -19,4 +19,4 @@ int main(void)
     q.pop();
   }
   cout << q.front();
-}
+}  
