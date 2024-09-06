@@ -34,8 +34,8 @@
 *.exe
 *.out
 *.app
-*.vscode
-*.DS_Store
+.vscode/
+.DS_Store
 
 # Ignore all
 *
