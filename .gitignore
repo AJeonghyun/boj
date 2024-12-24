@@ -5,12 +5,7 @@
 # Prerequisites
 *.d
 *
-.vscode/
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/c_cpp_properties.json
+
 # Compiled Object files
 *.slo
 *.lo
@@ -51,5 +46,6 @@
 
 # Unignore all dirs
 !*/
-!큰돌/test.out
+.vscode/
+큰돌/test.out
 # End of https://www.toptal.com/developers/gitignore/api/c++
