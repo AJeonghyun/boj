@@ -34,7 +34,7 @@
 *.exe
 *.out
 *.app
-*.vscode/
+.vscode/
 .DS_Store
 ._.DS_Store
 **/.DS_Store
