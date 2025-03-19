@@ -29,10 +29,12 @@ int main() {
 
   while(q.size()) {
     tie(y,x) = q.front(); q.pop();
+    
     for(int i=0; i<4; i++) {
       // 4방향 탐색
       int ny = y + dy[i];
       int nx = x + dx[i];
+      // 범위를 벗어나거나 벽(0)이면 무시
       if(ny < 0 || ny >= n || nx < 0 || nx >= m || a[ny][nx] == 0) continue;
       // 이미 방문한 정점은 다시 방문하지 않는다.
       if(visited[ny][nx]) continue;
