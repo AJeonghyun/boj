@@ -10,8 +10,8 @@ int main()
   l = 1;
   for (int i = 0; i < j; i++)
   {
-    r = l + m - 1;
     cin >> temp;
+    r = l + m - 1;
     if (temp >= l && temp <= r)
       continue;
     else
@@ -23,8 +23,8 @@ int main()
       }
       else
       {
-        l += (temp - r);
         ret += (temp - r);
+        l += (temp - r);
       }
     }
   }
